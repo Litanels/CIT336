@@ -4,6 +4,7 @@
         <meta charset="utf-8"> 
         <title>Laura Nelson Design</title> 
         <link href="/css/style_1.css" type="text/css" rel="stylesheet"/>
+        <script src="/js/login.js" ></script>
     </head> 
     <body> 
 
@@ -11,6 +12,11 @@
         <main>
             <div id='main_content'>
                 <h2>Sign-up/Login</h2>
+                <?php
+                if ($message) {
+                    echo $message;
+                }
+                ?>
                 <div id = "loginregister">
                     <form action="/?action=registersubmit" method="POST" id="registerform">
                         <input type="hidden" name="actiontype" id="actiontype" value=""/>
