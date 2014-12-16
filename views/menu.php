@@ -1,3 +1,5 @@
+
+<!DOCTYPE html> 
 <html> 
     <head> 
         <meta charset="utf-8"> 
@@ -6,6 +8,9 @@
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
     </head> 
+    <body> 
+        
+            <main>
 <ul>
 	<li><a href="/?action=myinfo">Update my info</a></li>
 	<li><a href="/?action=newitem">Upload a new item</a></li>
@@ -21,7 +26,7 @@
 	</ul>
 
 <?php endif; ?>
-
+            </main>
          <footer>
                 <?php include $_SERVER['DOCUMENT_ROOT'] . '/modular/footer.php'; ?> 
             </footer>
