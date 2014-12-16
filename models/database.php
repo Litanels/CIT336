@@ -7,7 +7,7 @@ $username = 'lauranel';
 $password = 'CnjN3ls0n@))^';
 
     try {
-        $link = new PDO($dsn, $username, $password);
+        $db = new PDO($dsn, $username, $password);
        
     } catch (PDOException $e) {
         $error_message = $e->getMessage();
