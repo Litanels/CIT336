@@ -1,0 +1,502 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+    color: rgb(54,52,54);
+    max-width: 90%;
+    margin-top: 1%;
+    margin-left: 25%;
+    padding: 0;
+    max-height: 100%;
+
+}
+h1 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 200%;
+    color: rgb(26, 49, 91);
+}
+h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 150%;
+    color: rgb(67, 63, 59);
+}
+
+h3 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    color: rgb(138, 167, 79);
+}
+a:link{
+    color: rgb(26, 49, 91);
+    text-decoration: none;
+}
+a:visited{
+    color: rgb(54, 52, 54);
+}
+a:hover{
+    color: rgb(26, 49, 91);
+    text-decoration: underline;
+}
+/*---------------------------Lists-------------------------------------------*/
+ul{
+    width: 60%;
+    list-style-type: circle;
+    list-style-position: outside;
+}
+li{
+    margin: 5px;
+}
+/*-------------Navigation----------------------------------------------------*/
+nav ul{
+    width: 64%;
+    background: rgb(195, 190, 184);
+    padding: 0 20px;
+    border-radius: 10px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+nav ul:after{
+    content: "";clear: both; display: block;
+}
+
+nav ul li{
+    float: left;
+}
+nav ul li:hover{
+    background: rgb(26, 49, 91);
+}
+nav ul li:hover a{
+    color: rgb(221, 217, 214);
+}
+nav ul li a{
+    display: block; padding: 5px 8px;
+    color: rgb(54, 52, 54); text-decoration: none;
+    z-index: 10;
+}
+/*==========================================================================*/
+
+div#tryptic{
+    margin-top: 1%;
+    margin-left: 0%;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+div#triptych-left{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 0%;
+    margin-bottom: 2%;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 167, 80);
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+
+}
+div.clear{
+    clear: left;
+}
+div#triptych-middle{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 23%;
+    margin-top: -20.4%;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 167, 80);
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+}
+div#triptych-right{
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-left: 46%;
+    margin-top: -18%;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(139, 167, 80);
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+}
+div#experience{
+    position: relative;
+    height: 65px;
+    width: 200px;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgb(139, 167, 80);
+    text-align: center;
+    text-justify: auto;
+    font-size: 150%;
+    margin-left: 21%;
+    margin-bottom: 10%;
+}
+div#link{
+    border: 5px;
+    padding: 5px;
+    margin-top: 1%;
+}
+/*--------------------------Paragraphs---------------------------------------*/
+p.content{
+    width: 65%;
+}
+p.post{
+    width: 40%;
+}
+p.quote{
+    width: 40%;
+    font-style: italic;
+}
+/*===========================================================================*/
+/*---------------------------Contact Form------------------------------------*/
+form{
+    width: 975px;
+}
+input{
+    border-radius: 5px;
+}
+text-area{
+    border-radius: 5px;
+}
+label{
+    float: left;
+    width: 100px;
+    text-align:right;
+    padding-right: 10px;
+}
+input#action{
+    float: right;
+    background-color:rgb(139, 167, 80);
+}
+button{
+    float: right;
+    background-color:rgb(139, 167, 80);
+}
+/*===========================================================================*/
+/*---------------------------Images------------------------------------------*/
+div#profile{
+    position: relative;
+    height: 270px;
+    width: 200px;
+    margin-bottom: 2%;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+
+}
+/*===========================================================================*/
+/*--------------Audio and Video----------------------------------------------*/
+div#audio-into{
+    position: relative;
+    height:100px;
+    width: 350px;
+    margin-left: 21%;
+    margin-top: -25%;
+}
+video{
+    margin-left: -20%;
+}
+/*===========================================================================*/
+/*---------------------------Tables------------------------------------------*/
+table{
+    width:1000px;
+}
+th{
+    padding: 5px 8px 8px 8px;
+    font-size: 90%;
+    border-bottom: 2px solid rgb(139, 167, 80);
+    border-top: 1px solid rgb(139, 167,80);
+    text-align: left;
+}
+tr.header{
+    text-transform: uppercase;
+}
+th.header{
+    text-transform: uppercase;
+}
+
+/*===========================================================================*/
+/*---------------------------Sidebar-----------------------------------------*/
+div#side{
+    position: relative;
+    width: 25%;
+    margin-left: 55%;
+    margin-top: -37%;
+    padding: 2%;
+    border-left: 5px solid rgb(139, 167, 80);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: left;
+    text-justify: auto;
+}
+/*===========================================================================*/
+/*--------------Footer-------------------------------------------------------*/
+footer{
+    width: 140%;
+    height: 30px;
+    position: relative;
+    margin-top:30%;
+    bottom: 0px;
+    margin-left:-35%;
+    background-color: rgb(195, 190, 184);
+    padding-top: 1%;
+    text-align: center;
+}
+footer#post_info{
+    width:20%;
+    position: relative;
+    margin-left:25%;
+    margin-top: 1%;
+    background-color: white;
+    text-align: left;
+}
+/*===========================================================================*/
+
+/*---------------------------Media Queries-----------------------------------*/
+@media screen and (max-device-width: 320px) and (orientation: portrait),
+screen and (max-device-width: 480px) and (orientation: landscape){
+
+    body{
+        width:500px;
+        margin: 0px auto;
+        height:100px;
+        position: relative;
+    }
+    
+    nav ul{
+        float: left;
+        width: 10%;
+        margin-left: 0%;
+        margin-right: 5%;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+    }
+    h1, h2, h3{
+        position: relative;
+        clear: both;
+        margin-left: 20%;
+    }
+    h1.header{
+        position: relative;
+    }
+    div#audio-into{
+    margin-left: 35%;
+    margin-top: -32%;
+    margin-bottom: 2%;
+}
+div#experience{
+    margin-left: 35%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+    p.content{
+    clear: both;
+    margin-left: 20%;
+    width: 50%;
+}
+p.post{
+    margin-left: 20%;
+}
+p.quote{
+    margin-left: 20%;
+}
+p.date{
+    margin-left:20%;
+}
+div#tryptic{
+    margin-top: 1%;
+    margin-left: 0%;
+    position: relative;
+    width: 100%;
+}
+div#triptych-left{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+div#triptych-middle{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-top: 10%;
+}
+div#triptych-right{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+ul{
+    margin-left: 20%;
+}
+div#side{
+    position: relative;
+    width: 20%;
+    margin-left: 75%;
+    margin-top: -115%;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-top:100%;
+    bottom: 0px;
+    margin-left: 0;
+    background-color: rgb(195, 190, 184);
+    padding-top: 1%;
+    text-align: center;
+}
+
+}
+@media screen and (max-device-width: 768px) and (orientation: portrait),
+screen and (max-device-width: 1024px) and (orientation: landscape){
+    body{
+        width: 1000px;
+        margin: 0px auto;
+        height: 100px;
+        position: relative;
+    }
+    nav ul{
+        float: left;
+        width: 10%;
+        margin-left: 0%;
+        margin-right: 5%;
+        list-style: none;
+        position: relative;
+        display: inline-table;
+    }
+    h1, h2, h3{
+        position: relative;
+        clear: both;
+        margin-left: 20%;
+    }
+    h1.header{
+        position: relative;
+    }
+    div#profile{
+    margin-left: 20%;
+    margin-bottom: 2%;
+    border: 5px solid rgb(139, 167, 80);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-justify: auto;
+    font-size: 200%;
+
+}
+    div#audio-into{
+    margin-left: 55%;
+    margin-top: -32%;
+    margin-bottom: 2%;
+}
+div#experience{
+    margin-left: 55%;
+    margin-bottom: 10%;
+    margin-top: 2%;
+}
+    p.content{
+    clear: both;
+    margin-left: 20%;
+    width: 50%;
+}
+p.post{
+   margin-left: 20%;
+}
+p.quote{
+    margin-left: 20%;
+}
+p.date{
+    margin-left: 20%;
+}
+div#tryptic{
+    margin-top: 1%;
+    margin-left: 0%;
+    position: relative;
+    width: 100%;
+}
+div#triptych-left{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-bottom: 2%;
+}
+
+div#triptych-middle{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-top: 10%;
+}
+div#triptych-right{
+    position: relative;
+    height: 120px;
+    width: 220px;
+    margin-left: 23%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+ul{
+    margin-left: 20%;
+}
+div#side{
+    position: relative;
+    width: 25%;
+    margin-left: 75%;
+    margin-top: -65%;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    margin-top:100%;
+    bottom: 0px;
+    margin-left: 0;
+    background-color: rgb(195, 190, 184);
+    padding-top: 1%;
+    text-align: center;
+}
+
+}
+@media screen and (max-device-width: 1400px){
+    body{
+        width: 1400px;
+        margin: 0px auto;
+        height: 100%;
+    }
+    div.container{
+        width: 50%;
+        margin: 0px auto;
+        height: 100px;
+    }
+
+}
