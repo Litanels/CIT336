@@ -6,9 +6,6 @@
 
         <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
     </head> 
-?php
-?>
-
 <ul>
 	<li><a href="/?action=myinfo">Update my info</a></li>
 	<li><a href="/?action=newitem">Upload a new item</a></li>
