@@ -1,4 +1,5 @@
-// Function used to confirm a role change.
+
+// // Function used to confirm a role change.
 // id - the User Id to change
 // role - the role to change to.
 function ChangeUserRole(id, role) {
