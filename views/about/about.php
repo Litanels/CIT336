@@ -1,14 +1,4 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>Laura Nelson Design</title>
-        <link href="/css/style_1.css" type="text/css" rel="stylesheet"/>
-    </head> 
-    <body> 
-       
-
-    <main>
+<main>
         <h1>About</h1>
         <div id="main_content">
             <div id='profile'>
