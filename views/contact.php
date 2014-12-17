@@ -1,13 +1,4 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>Laura Nelson Design</title> 
-        <link href="/css/style_1.css" type="text/css" rel="stylesheet"/>
-    </head> 
-    <body> 
-       
-            <main>
+<main>
                 <div id='main_content'>
                     <h2>Contact</h2>
                     <p class="content">I would love to design and build your place on the web.<br>
