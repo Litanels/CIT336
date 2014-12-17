@@ -7,8 +7,8 @@ function GetNavigationItems()
         'home' => 'Home',
         'portfolio' => 'Portfolio',
         'services' => 'Services',
-        'best practices' => 'Best Practices',
-        'thank you notes' => 'Thank You Notes',
+        'bestpractices' => 'Best Practices',
+        'thankyounotes' => 'Thank You Notes',
         'about' => 'About',
         'contact' => 'Contact'
     );
