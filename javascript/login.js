@@ -27,11 +27,11 @@ $(document).ready(function() {
                 rules: {
                     firstname: {
                         required: true,
-                        minlength: 5
+                        minlength: 4
                     },
                     lastname: {
                         required: true,
-                        minlength: 5
+                        minlength: 4
                     },
                     emailreg: {
                         required: true,
