@@ -2,13 +2,13 @@
 ini_set('display_erros', '1');
 session_start();
 
-require'models/database.php';
-require'models/db.php';
-require'models/users.php';
-require'models/navigation.php';
-require'models/roles.php';
+require 'models/database.php';
+require 'models/db.php';
+require 'models/users.php';
+require 'models/navigation.php';
+require 'models/roles.php';
 
-include'views/modular/header.php';
+include 'views/modular/header.php';
 
 $action = strtolower(filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING));
 
@@ -58,6 +58,9 @@ switch ($action)
         if (LoginUser($email, $password)) {
             header('Location: /?action=menu');
             exit();
+            
+        }else{
+            echo "There was an error. Please try again.";
         }
         
         include 'views/login.php';
