@@ -1,15 +1,3 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>Laura Nelson Design</title> 
-        <link href="/css/style_1.css" type="text/css" rel="stylesheet" media="screen">
-
-        <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0">
-        <script src="/js/editusers.js" ></script>
-    </head> 
-    <body> 
-
         <main>
 
             <div id="userlistdiv">
