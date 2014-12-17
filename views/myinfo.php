@@ -15,8 +15,8 @@
                 <form id="infoupdateform" method="POST" action="/?action=updateinfo">
                     <fieldset>
                         <legend>Update my information</legend>
-                        First Name: <input type="text" name="fname" id="fname" value="<?php echo $user->firstName; ?>" required /><br />
-                        Last Name: <input type="text" name="lname" id="lname" value="<?php echo $user->lastName; ?>" required /><br />
+                        First Name: <input type="text" name="firstname" id="firstname" value="<?php echo $user->firstName; ?>" required /><br />
+                        Last Name: <input type="text" name="lastname" id="lastname" value="<?php echo $user->lastName; ?>" required /><br />
                         Email Address: <input type="email" name="emailreg" id="emailreg" value="<?php echo $user->email; ?>" required /><br />
                         <input type="submit" name="Submit" value="Submit" />
                     </fieldset>
