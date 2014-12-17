@@ -1,14 +1,4 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <title>Laura Nelson Design</title>
-        <link href="/css/style_1.css" type="text/css" rel="stylesheet"/>
-    </head> 
-    <body> 
-      
-
-            <main>
+<main>
                 <div id='main_content'>
                     <h1>Content Writing Portfolio</h1>
                     <p class="content">One of the <a href="/services/services.php">services</a> that I provide is
