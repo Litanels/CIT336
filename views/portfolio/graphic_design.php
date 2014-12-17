@@ -1,3 +1,5 @@
+<?php
+?>
 <main>
                 <div id="main-content">
                     <h1>Graphic Design Portfolio</h1>

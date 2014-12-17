@@ -1,3 +1,5 @@
+<?php
+?>
 <main>
                 <div id='main_content'>
                     <h1>Thank You Notes</h1>

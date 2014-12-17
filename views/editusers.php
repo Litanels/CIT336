@@ -1,4 +1,6 @@
-        <main>
+<?php
+?>
+<main>
 
             <div id="userlistdiv">
                 <table id="userstable">

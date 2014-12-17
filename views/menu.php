@@ -1,4 +1,5 @@
-        
+ <?php
+ ?>
 <main>
     <ul>
         <li><a href="/?action=myinfo">Update my information.</a></li>

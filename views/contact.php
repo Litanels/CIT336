@@ -1,3 +1,5 @@
+<?php
+?>
 <main>
     <div id='main_content'>
         <h2>Contact</h2>

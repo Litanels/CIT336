@@ -1,4 +1,5 @@
-<?php ?>
+<?php 
+?>
 
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
 <script src="/js/login.js" ></script>
@@ -7,7 +8,8 @@
 <main>
     <div id='main_content'>
         <h2>Sign-up/Login</h2>
-       <?php
+      
+    <?php
         if ($message) {
             echo $message;
         }

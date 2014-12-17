@@ -1,3 +1,5 @@
+<?php
+?>
 <main>
         <h1>About</h1>
         <div id="main_content">
