@@ -17,7 +17,7 @@ switch ($action)
     case 'about':
 	   include 'views/about/about.php';
 	   break;
-    case 'best practices':
+    case 'bestpractices':
         include 'views/about/best_practices.php';
         break;
     case 'changerole':
