@@ -1,8 +1,7 @@
         
 <main>
     <ul>
-        <li><a href="/?action=myinfo">Update my info</a></li>
-        <li><a href="/?action=newitem">Upload a new item</a></li>
+        <li><a href="/?action=myinfo">Update my information.</a></li>
     </ul>
 
 
@@ -11,7 +10,6 @@
         Admin Items:<br />
         <ul>
             <li><a href="/?action=editusers">Edit Users</a></li>
-            <li><a href="/?action=newitem">Upload a new item</a></li>
         </ul>
 
     <?php endif; ?>
