@@ -104,7 +104,7 @@ switch ($action)
     case 'services':
         include 'views/services/services.php';
         break;
-    case 'thank you notes':
+    case 'thankyounotes':
         include 'views/services/thank_yous.php';
         break;
     case 'updateinfo':
