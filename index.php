@@ -16,6 +16,7 @@ $action = strtolower(filter_input(INPUT_GET, 'action', FILTER_SANITIZE_STRING));
 
 switch ($action)
 {
+    
     case 'about':
 	   include 'views/about/about.php';
 	   break;
@@ -174,7 +175,6 @@ switch ($action)
         }
         include 'views/myinfo.php';
         break;
-        
     default:
         include 'views/home.php';
 }
