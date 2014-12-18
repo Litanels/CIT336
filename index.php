@@ -1,5 +1,7 @@
 <?php
-ini_set('display_erros', '1');
+ini_set('output_buffering', 'On');
+error_reporting(E_ALL);
+
 session_start();
 
 require 'models/database.php';
@@ -25,7 +27,7 @@ switch ($action)
         $role = filter_input(INPUT_GET, 'role', FILTER_SANITIZE_STRING);
         if (LoggedInUserIsAdmin() && $userid && $role)
         {
-            UpdateUserRole($id, $role);
+            UpdateUserRole($userid, $role);
         }
         header('Location: /?action=editusers');
         exit();
@@ -141,7 +143,7 @@ switch ($action)
         $newpassword2= $_POST['repeatpassword'];
         $message = '';
         
-        if($newpasword == $newpassword2)
+        if($newpassword == $newpassword2)
         {
             $validMessage = '';
             if (ValidatePassword($newpassword, $validMessage))
@@ -149,7 +151,7 @@ switch ($action)
                 if (ValidateOldPassword($oldpassword))
                 {
                     UpdateUserPassword($newpassword);
-                    $message = 'Password Update';
+                    $message = 'Password Updated';
                 }
              else
              {
