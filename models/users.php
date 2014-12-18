@@ -164,7 +164,7 @@ function ValidateEmail($email, &$message) {
 	return false;
 }
 function ValidatePasswordLength($name, &$message) {
-	// TODO: make sure password contains UPPERCASE, lowercase, numbers, and special chars.
+	
 	
 	if (strlen($name) >= 5) {
 		return true;	
