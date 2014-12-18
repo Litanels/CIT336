@@ -1,5 +1,6 @@
 <?php
 ?>
+<script src="/javascript/editusers.js" ></script>
 <main>
 
             <div id="userlistdiv">
