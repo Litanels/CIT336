@@ -187,7 +187,7 @@ function SetUserSessionVariables(User $user) {
 /// $lastname - the updated last name.
 function UpdateUserInfo($id, $email, $firstname, $lastname)
 {
-	$query = 'UPDATE users SET email=:email, firstName=:firstname, lastnName=:lastname WHERE ID=:id';
+	$query = 'UPDATE users SET email=:email, firstName=:firstname, lastnname=:lastname WHERE ID=:id';
 	DbExecute($query, array(':email' => $email, ':firstname' => $firstname, ':lastname' => $lastname, ':id' => $id));
 }
 /// Update the User password.
